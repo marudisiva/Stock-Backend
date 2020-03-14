@@ -1,0 +1,25 @@
+package com.cts.project.pojos;
+
+import javax.persistence.*;
+@Entity
+@Table(name="user")
+public class User {
+	@Id
+	private String username;
+	
+	@Column(name="password",nullable=false,length=100)
+	private String password;
+	
+	private String confirm;
+	private String firstname;
+	  private String lastname;
+	  private String email;
+	  private String address;
+	  private int phone;
+	private int age; 
+	private String usertype;
+	private String profileimage;
+
+
+
+	}
